@@ -1,9 +1,14 @@
 # JqueryMineralsPharms
 Assignment for Mobile_Web_Dev Computer Programming
 
-#Launch
+# Launch
 Run through a simple http-server on node.js
 
-#Credits
+# Goal
+Load data from JSON and XML files.
+Jquery Manupulation
+
+# Credits
 Mohammed Patla
-Anthony Whitwean
+Anthony Whitwell
+
