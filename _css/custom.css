@@ -1,0 +1,54 @@
+.ui-icon-anthony:after {
+    background-image: url("../images/anthony.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-mohammed:after {
+    background-image: url("../images/mohammed.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-antioxidant:after {
+    background-image: url("../images/antioxidant.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-calcium:after {
+    background-image: url("../images/calcium.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-dailyvalue:after {
+    background-image: url("../images/dailyvalue.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-supplement:after {
+    background-image: url("../images/supplement.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-electrolytes:after {
+    background-image: url("../images/electrolytes.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-iodine:after {
+    background-image: url("../images/iodine.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-iron:after {
+    background-image: url("../images/iron.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-magnesium:after {
+    background-image: url("../images/magnesium.jpg");
+    background-size: 28px 28px;
+}
+
+.ui-icon-map:after {
+    background-image: url("../images/map.jpg");
+    background-size: 28px 28px;
+}

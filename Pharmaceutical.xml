@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Pharmaceutical>
+   <company>Lilly</company>
+   <url>https://www.lilly.com</url>
+   <phone>+1-317-276-2000</phone>
+   <longitude>39.750705</longitude>
+   <latidue>-86.181189</latidue>
+   <medicines>
+       <medicine>
+          <brandname>BASAGLAR</brandname>
+          <drugname>insulin glargine injection</drugname> 
+          <description>BASAGLAR is a long-acting insulin used to control high blood sugar in adults and children with type 1 diabetes and adults with type 2 diabetes.</description>
+          <administered>BASAGLAR should be taken once a day at the same time every day</administered>
+          <contraindication>The most common side effect of insulin, including BASAGLAR, is low blood sugar (hypoglycemia), which may be serious and life threatening. Signs and symptoms may include dizziness or light-headedness, sweating, confusion, headache, blurred vision, slurred speech, shakiness, fast heartbeat, anxiety, irritability, mood change, or hunger.</contraindication>
+       </medicine>
+       <medicine>
+          <brandname>Glucagon</brandname>
+          <drugname>medicine that is different from insulin</drugname> 
+          <description>Glucagon is a medicine that’s different from insulin. It’s used to treat severe low blood sugar (hypoglycemia)</description>
+          <administered>Be sure to designate several people who can help in case of an emergency. In the event of severe low blood sugar (hypoglycemia), you may not be able to inject yourself with Glucagon</administered>
+          <contraindication>Glucagon should not be used if you have pheochromocytoma or if you are allergic to Glucagon.</contraindication>
+       </medicine>
+       <medicine>
+          <brandname>GLYXAMBI</brandname>
+          <drugname>empagliflozin (JARDIANCE) and linagliptin (TRADJENTA)</drugname> 
+          <description>GLYXAMBI is a hardworking treatment that works in multiple ways at the same time to bring down blood sugar:</description>
+          <administered>GLYXAMBI can be used along with diet and exercise to improve blood sugar in adults with type 2 diabetes, and can be used in adults with type 2 diabetes who have known cardiovascular disease when both empagliflozin and linagliptin are appropriate and empagliflozin is needed to reduce the risk of cardiovascular death.</administered>
+          <contraindication>GLYXAMBI may cause serious side effects, including:
+
+Low blood sugar (hypoglycemia), if you take GLYXAMBI with another medicine that can cause low blood sugar such as a sulfonylurea or insulin, your risk of getting low blood sugar is higher. The dose of your sulfonylurea or insulin may need to be lowered. Signs and symptoms of low blood sugar may include headache, drowsiness, weakness, confusion, irritability, hunger, fast heartbeat, sweating, dizziness, or shaking or feeling jittery.
+Allergic (hypersensitivity) reactions can happen after your first dose or up to 3 months after starting GLYXAMBI. Symptoms may include swelling of your face, lips, throat, and other areas on your skin; difficulty with swallowing or breathing; raised, red areas on your skin (hives); and/or skin rash, itching, flaking, or peeling. If you have any of these symptoms, stop taking GLYXAMBI and call your doctor or go to the emergency room right away.
+Kidney problems. Sudden kidney injury has happened to people taking GLYXAMBI. Talk to your doctor right away if you reduce the amount you eat or drink, or if you lose liquids; for example, from vomiting, diarrhea, or being in the sun too long.
+Increased fats in your blood (cholesterol)
+Joint pain. Some people who take medicines called DPP-4 inhibitors, one of the medicines in GLYXAMBI, may develop joint pain that can be severe. Call your doctor if you have severe joint pain.
+Skin reaction called bullous pemphigoid can be serious and may need to be treated in a hospital. Tell your doctor right away if you develop blisters.
+The most common side effects of GLYXAMBI include urinary tract infections, stuffy or runny nose and sore throat, and upper respiratory tract infections.</contraindication>
+       </medicine>
+       
+       <medicine>
+          <brandname>Taltz</brandname>
+          <drugname>ixekizumab injection</drugname> 
+          <description>Taltz is a prescription medicine used to treat adults with moderate to severe plaque psoriasis who may benefit from taking injections or pills (systemic therapy) or phototherapy (treatment using ultraviolet or UV light).</description>
+          <administered>injected</administered>
+          <contraindication>Do not use Taltz if you have had a severe allergic reaction to ixekizumab or any of the other ingredients in Taltz. See the Medication Guide for a complete list of ingredients in Taltz. If you have a severe allergic reaction, do not take another injection of Taltz.
+          The most common side effects of Taltz include: injection site reactions, nausea, fungal infections, and upper respiratory infections. These are not all of the possible side effects of Taltz. Tell your HCP about any side effect that bothers you or that does not go away.</contraindication>
+       </medicine>
+   </medicines>
+</Pharmaceutical>

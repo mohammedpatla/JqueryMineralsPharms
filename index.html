@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery Mobile - More</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="_css/jquery.mobile.css" />
+    <link href="_css/port.css" rel="stylesheet" media="screen and (orientation: portrait)" />
+    <link href="_css/land.css" rel="stylesheet" media="screen and (orientation: landscape)" />
+    <link rel="stylesheet" href="_css/custom.css" />
+
+    <script src="_js/jquery.js"></script>
+    <script src="_js/jquery.mobile.js"></script>
+    <script src="_js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBF4aIxUtNidiOjwIao-0DcfW4KUeoIUg0&callback=loadingmap"></script>
+
+</head>
+
+<body>
+
+    <div data-role="page" id="finalProject" data-theme="a">
+        <div data-role="panel" id="panelMain" data-display="reveal" data-position="left" data-dismissible="true">
+            <button class="ui-btn ui-shadow ui-icon-map ui-btn-icon-left" onclick="CreateMapPage()">See Map</button>
+        </div>
+        <header data-role="header">
+            <a href="#panelMain" class="ui-btn ui-shadow ui-icon-bars ui-btn-icon-left">Menu</a>
+            <h1>Lilly Knowledge Hub</h1>
+
+        </header>
+
+        <section id="mainContent" class="ui-content" role="main">
+            <div class="ui-grid-a">
+                <div id="mineralData" class="ui-block-a">
+                    <h1 id="mineralHeader"></h1>
+
+                </div>
+                <div id="pharmaceuticalData" class="ui-block-b">
+                    <h1 id="pharmaceuticalHeader"></h1>
+                </div>
+            </div>
+        </section>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href='#anthony' class='ui-btn ui-icon-anthony ui-btn-icon-right' data-rel="popup" data-transition="pop">Anthony</a></li>
+                    <li><a href='#mohammed' class='ui-btn ui-icon-mohammed ui-btn-icon-right' data-rel="popup" data-transition="pop">Mohammed</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="popup" id="anthony" data-theme="none">
+            <div id="anthonyInfo" data-role="collapsible-set">
+            </div>
+        </div>
+        <div data-role="popup" id="mohammed" data-theme="none">
+            <div id="mohammedInfo" data-role="collapsible-set">
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="geoLocationPage" data-theme="a">
+        <header data-role="header">
+            <a href='#finalProject' class='ui-btn ui-icon-back ui-btn-icon-notext'></a>
+            <h1 id="companyName"></h1>
+        </header>
+        <section id="mainContent" class="ui-content" role="main">
+
+            <div id="map_canvas" style="height:400px; width:400px"></div>
+        </section>
+        <div data-role="footer">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href='#anthonyMap' class='ui-btn ui-icon-anthony ui-btn-icon-right' data-rel="popup" data-transition="pop">Anthony</a></li>
+                    <li><a href='#mohammedMap' class='ui-btn ui-icon-mohammed ui-btn-icon-right' data-rel="popup" data-transition="pop">Mohammed</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="popup" id="anthonyMap" data-theme="none">
+            <div id="anthonyInfoMap" data-role="collapsible-set">
+            </div>
+        </div>
+        <div data-role="popup" id="mohammedMap" data-theme="none">
+            <div id="mohammedInfoMap" data-role="collapsible-set">
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

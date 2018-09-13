@@ -1,0 +1,15 @@
+{
+    "students": [{
+            "fullname": "Anthony Whitwell",
+            "studentlogin": "whitwean",
+            "studentno": "991415680",
+            "image": "anthony"
+        },
+        {
+            "fullname": "Mohammed Patla",
+            "studentlogin": "patla",
+            "studentno": "991396397",
+            "image": "mohammed"
+        }
+    ]
+}
